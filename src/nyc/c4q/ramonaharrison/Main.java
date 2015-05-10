@@ -6,6 +6,8 @@ package nyc.c4q.ramonaharrison;
  * may9.java
  */
 
+
+
 public class Main {
 
     public static String reverse(String input) {
@@ -50,10 +52,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(reverse("Ramona"));
-        System.out.println(reverseWords("i love java"));
-        System.out.println(capitalize("i love java"));
-        System.out.println(parseAddition("3 + (4 + 2)"));
+        System.out.println(reverse("Ramona and Rosemary"));
+        System.out.println(reverseWords("i love java cookies"));
+        System.out.println(capitalize("i love java brownies"));
+        System.out.println(parseAddition("3 + (4 * 2)"));
 
     }
 }
